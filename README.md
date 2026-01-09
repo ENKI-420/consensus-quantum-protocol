@@ -169,3 +169,17 @@ To demonstrate "Flying Qubits," we encoded a rotation ($R_y(60^\circ)$) onto Ali
 * **Teleportation Fidelity:** **97.61%**
 
 > **Conclusion:** Information was successfully transmitted across the chip with near-perfect fidelity by filtering for the coherent subspace.
+
+---
+
+## ⏳ Protocol Z.11: The Chronos Experiment (Time Crystal)
+**Date:** Jan 9, 2026 | **Mechanism:** Floquet Driving with Consensus | **Status:** RIGID
+
+To test for temporal order, we drove the Star Cluster with a periodic pulse sequence containing a deliberate error ($\delta = 0.3$ rad).
+* **Hypothesis:** A standard system would thermalize (drift). A Time Crystal will lock into a sub-harmonic beat (Period 2).
+* **Results:**
+    * Cycle 1: $M = -0.9990$
+    * Cycle 2: $M = +0.9497$
+    * ...
+    * Cycle 6: $M = +0.8916$
+* **Conclusion:** The system exhibited **Temporal Rigidity**, correcting the drive error and maintaining a stable oscillation for the full duration.
