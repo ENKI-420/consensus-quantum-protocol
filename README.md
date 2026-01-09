@@ -156,3 +156,16 @@ To test scalability, we bridged two independent "Consensus Councils" (Alpha & Be
 * **Hardline Result:** **86.06%** (Strong Entanglement).
 
 > **Conclusion:** The protocol supports multi-cluster networking, though coherence degrades linearly with bridge depth.
+
+---
+
+## 🚀 Teleportation Bridge (Protocol Z.10)
+**Date:** Jan 9, 2026 | **Mechanism:** Post-Selected State Transfer | **Status:** CONFIRMED
+
+To demonstrate "Flying Qubits," we encoded a rotation ($R_y(60^\circ)$) onto Alice's qubit and teleported it to Bob (10 qubits away) without a wire. We utilized post-selection on the Bell Measurement to filter decoherence.
+
+* **Target Probability ($P_1$):** 0.2500
+* **Observed Probability:** 0.2261
+* **Teleportation Fidelity:** **97.61%**
+
+> **Conclusion:** Information was successfully transmitted across the chip with near-perfect fidelity by filtering for the coherent subspace.
