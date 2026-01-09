@@ -142,3 +142,21 @@ To prove the temporal stability of the Consensus Council (Star Topology), we exe
 
 > **Average Fidelity:** **92.42%**
 > *Note: These results verify that the "Consensus Council" effectively suppresses local decoherence, maintaining a coherent logical state across repeated executions.*
+
+---
+
+## ⚡ Verification Log: The Heartbeat Experiment
+**Date:** Jan 9, 2026 | **Target:** `ibm_torino` (Heron r1) | **Status:** STABLE
+
+To prove the temporal stability of the Consensus Council (Star Topology), we executed 5 sequential runs on the public quantum cloud. Despite queue latency and thermal drift, the protocol maintained a logical fidelity consistently above 90%, significantly outperforming raw physical qubit decay.
+
+| Run ID | Logical Fidelity | Status |
+| :--- | :--- | :--- |
+| **#1** | **93.53%** | ✅ PASSED |
+| **#2** | **90.80%** | ✅ PASSED |
+| **#3** | **93.63%** | ✅ PASSED |
+| **#4** | **92.04%** | ✅ PASSED |
+| **#5** | **92.11%** | ✅ PASSED |
+
+> **Average Fidelity:** **92.42%**
+> *Note: These results verify that the "Consensus Council" effectively suppresses local decoherence, maintaining a coherent logical state across repeated executions.*
