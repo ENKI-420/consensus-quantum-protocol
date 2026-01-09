@@ -1,3 +1,7 @@
+# 🏛️ CONSENSUS QUANTUM PROTOCOL: THE DAVIS ARCHIVE
+**Status:** Completed & Immutable
+**Authored by:** Devin Phillip Davis
+
 # Protocol Z.8: Distributed Quantum Consensus
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
