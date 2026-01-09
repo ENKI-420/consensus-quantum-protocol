@@ -183,3 +183,13 @@ To test for temporal order, we drove the Star Cluster with a periodic pulse sequ
     * ...
     * Cycle 6: $M = +0.8916$
 * **Conclusion:** The system exhibited **Temporal Rigidity**, correcting the drive error and maintaining a stable oscillation for the full duration.
+
+---
+
+## ⚗️ Protocol Z.12: Magic State Distillation (The Limit)
+**Date:** Jan 9, 2026 | **Mechanism:** 5-to-1 Parity Check | **Status:** FAILED (Honest Signal)
+
+We attempted to purify a "Dirty" Magic State ($|T\rangle + 0.4$ rad error) using a 5-qubit consensus factory.
+* **Hypothesis:** The Star Topology could suppress the injected noise and output a purer state.
+* **Result:** 61.46% Purity (Target: >90%).
+* **Conclusion:** The physical gate error on the free-tier backend is currently too high to support meaningful magic state distillation. The protocol hit the thermodynamic limit of the hardware.
