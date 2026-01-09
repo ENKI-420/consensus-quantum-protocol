@@ -79,7 +79,7 @@ if __name__ == "__main__":
         isa_circuit = transpile(qc, backend=backend, optimization_level=3)
         
         print("[*] Submitting to QPU...")
-        sampler = Sampler(backend=backend)
+        sampler = Sampler(mode=backend)
         job = sampler.run([isa_circuit])
         print(f"[*] Job ID: {job.job_id()}")
         
