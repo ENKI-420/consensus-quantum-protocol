@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Davis"
+  given-names: "Devin Phillip"
+title: "Consensus Quantum Protocol: Teleportation and Time Crystals on NISQ Hardware"
+version: 1.0.0
+date-released: 2026-01-09
+url: "https://github.com/ENKI-420/consensus-quantum-protocol"
